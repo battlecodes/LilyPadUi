@@ -7,4 +7,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Resources\Fonts\Inter-VariableFont_slnt,wght.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LilyPadTest\LilyPadTest.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Fonts\Inter-VariableFont_slnt,wght.ttf" />
+  </ItemGroup>
+
 </Project>

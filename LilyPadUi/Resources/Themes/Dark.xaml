@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <!-- #Colors -->
+
+    <Color x:Key="ApplicationBackgroundColor">#313338</Color>
+
+    <Color x:Key="SolidControlBackgroundFillColorPrimary">#4E5058</Color>
+
+    <Color x:Key="TextFillColorPrimary">#828790</Color>
+
+    <Color x:Key="TextAccentFillColorPrimary">#FFFFFF</Color>
+    
+    <!-- #Controls -->
+    
+    <!-- #Button -->
+    <SolidColorBrush x:Key="ButtonBackground" Color="{StaticResource SolidControlBackgroundFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ButtonForeground" Color="{StaticResource TextAccentFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ButtonBorderBrush" Color="{StaticResource TextAccentFillColorPrimary}"/>
+
+
+    <!-- #Window -->
+    <SolidColorBrush x:Key="WindowBackground" Color="{StaticResource ApplicationBackgroundColor}"/>
+    
+    <SolidColorBrush x:Key="WindowForeground" Color="{StaticResource TextFillColorPrimary}"/>
+
+</ResourceDictionary>

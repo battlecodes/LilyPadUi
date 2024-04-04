@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LilyPadUi", "LilyPadUi\LilyPadUi.csproj", "{88EC6616-7852-44BD-81CA-F7FB90E7E6EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LilyPadTest", "LilyPadTest\LilyPadTest.csproj", "{F90967D3-8014-4DD5-B243-5FAA0D332A63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{88EC6616-7852-44BD-81CA-F7FB90E7E6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88EC6616-7852-44BD-81CA-F7FB90E7E6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88EC6616-7852-44BD-81CA-F7FB90E7E6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90967D3-8014-4DD5-B243-5FAA0D332A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90967D3-8014-4DD5-B243-5FAA0D332A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90967D3-8014-4DD5-B243-5FAA0D332A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90967D3-8014-4DD5-B243-5FAA0D332A63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
