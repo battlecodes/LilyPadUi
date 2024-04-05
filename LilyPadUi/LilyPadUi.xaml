@@ -6,9 +6,11 @@
         <ResourceDictionary Source="Resources/Themes/Dark.xaml"/>
 
         <ResourceDictionary Source="Resources/Dictionaries/Fonts.xaml"/>
+        <ResourceDictionary Source="Resources/Dictionaries/Images.xaml"/>
         <ResourceDictionary Source="Resources/Dictionaries/Variables.xaml"/>
 
         <ResourceDictionary Source="Controls/Button.xaml"/>
+        <ResourceDictionary Source="Controls/Calendar.xaml"/>
         <ResourceDictionary Source="Controls/Window.xaml"/>
     </ResourceDictionary.MergedDictionaries>
     

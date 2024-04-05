@@ -22,9 +22,14 @@
     <Color x:Key="SolidControlAlertFillColorDisabled">#DA373E</Color>
 
     <Color x:Key="TextFillColorPrimary">#828790</Color>
+    <Color x:Key="TextFillColorSecondary">#C1C3C7</Color>
 
     <Color x:Key="TextAccentFillColorPrimary">#FFFFFF</Color>
     <Color x:Key="TextAccentFillColorDisabled">#A3A4A7</Color>
+
+    <Color x:Key="TextOnAccentFillColorPrimary">#000000</Color>
+
+    <Color x:Key="SurfaceStrokeColorFlyout">#33000000</Color>
     
     <!-- #Controls -->
     
@@ -64,6 +69,19 @@
     <SolidColorBrush x:Key="EmptyDeleteButtonBorderBrushMouseOver" Color="{StaticResource SolidControlAlertFillColorPrimary}"/>
     <SolidColorBrush x:Key="EmptyDeleteButtonBorderBrushPressed" Color="{StaticResource SolidControlAlertFillColorSecondary}"/>
     <SolidColorBrush x:Key="EmptyDeleteButtonBorderBrushDisabled" Color="{StaticResource SolidControlAlertFillColorDisabled}"/>
+    
+    
+    <!-- #Calendar -->
+    <SolidColorBrush x:Key="CalendarViewBackground" Color="{StaticResource SolidControlFillColorPrimary}"/>
+    <SolidColorBrush x:Key="CalendarViewBackgroundSelected" Color="{StaticResource SolidControlFillColorTertiary}"/>
+    <SolidColorBrush x:Key="CalendarViewForeground" Color="{StaticResource TextFillColorPrimary}"/>
+    <SolidColorBrush x:Key="CalendarViewBorderBrush" Color="{StaticResource SurfaceStrokeColorFlyout}"/>
+    <SolidColorBrush x:Key="CalendarViewBorderBrushSelected" Color="{StaticResource SolidControlFillColorTertiary}"/>
+    <SolidColorBrush x:Key="CalendarViewTodayBackground" Color="{StaticResource SolidControlFillColorTertiary}"/>
+    <SolidColorBrush x:Key="CalendarViewTodayForeground" Color="{StaticResource TextOnAccentFillColorPrimary}"/>
+    <SolidColorBrush x:Key="CalendarViewItemBackgroundMouseOver" Color="{StaticResource SolidControlFillColorSecondary}"/>
+    <SolidColorBrush x:Key="CalendarViewButtonForeground" Color="{StaticResource TextFillColorSecondary}"/>
+
 
 
 

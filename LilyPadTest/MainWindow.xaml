@@ -24,7 +24,7 @@
         </StackPanel>
 
         <StackPanel Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="20">
-            <Button Content="Halp"/>
+            <Calendar/>
         </StackPanel>
         
     </Grid>

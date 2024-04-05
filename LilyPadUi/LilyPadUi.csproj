@@ -9,6 +9,11 @@
 
   <ItemGroup>
     <None Remove="Resources\Fonts\Inter-VariableFont_slnt,wght.ttf" />
+    <None Remove="Resources\Images\Icons\Chevron-Down\chevron-down_default.png" />
+    <None Remove="Resources\Images\Icons\Chevron-Down\chevron-down_disabled.png" />
+    <None Remove="Resources\Images\Icons\Chevron-Down\chevron-down_secondary.png" />
+    <None Remove="Resources\Images\Icons\Chevron-Up\chevron-up_default.png" />
+    <None Remove="Resources\Images\Icons\Chevron-Up\chevron-up_secondary.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +22,11 @@
 
   <ItemGroup>
     <Resource Include="Resources\Fonts\Inter-VariableFont_slnt,wght.ttf" />
+    <Resource Include="Resources\Images\Icons\Chevron-Down\chevron-down_default.png" />
+    <Resource Include="Resources\Images\Icons\Chevron-Down\chevron-down_disabled.png" />
+    <Resource Include="Resources\Images\Icons\Chevron-Down\chevron-down_secondary.png" />
+    <Resource Include="Resources\Images\Icons\Chevron-Up\chevron-up_default.png" />
+    <Resource Include="Resources\Images\Icons\Chevron-Up\chevron-up_secondary.png" />
   </ItemGroup>
 
 </Project>
