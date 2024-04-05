@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LilyPadTest"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="MainWindow" Height="650" Width="800"
         Style="{StaticResource DefaultWindowStyle}">
     <Window.Resources>
         <ResourceDictionary Source="/LilyPadUi;component/LilyPadUi.xaml"/>
@@ -17,6 +17,9 @@
         </Grid.ColumnDefinitions>
         
         <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20">
+            <Label Content="DISPLAY NAME" Style="{StaticResource HeaderLabelStyle}"/>
+            <Label Content="Alzadarin" Style="{StaticResource AccentLabelStyle}"/>
+            <Label Content="I'm a testy boi!"/>
             <DatePicker Margin="0,10"/>
             <ComboBox Margin="0,10" SelectedIndex="0">
                 <ComboBoxItem>Red</ComboBoxItem>

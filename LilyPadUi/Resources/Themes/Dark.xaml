@@ -28,6 +28,7 @@
 
     <Color x:Key="TextFillColorPrimary">#828790</Color>
     <Color x:Key="TextFillColorSecondary">#C1C3C7</Color>
+    <Color x:Key="TextFillColorTertiary">#B5BAC1</Color>
 
     <Color x:Key="TextAccentFillColorPrimary">#FFFFFF</Color>
     <Color x:Key="TextAccentFillColorDisabled">#A3A4A7</Color>
@@ -124,6 +125,12 @@
     <!-- #Hyperlink -->
     <SolidColorBrush x:Key="HyperlinkForeground" Color="{StaticResource TextAccentFillColorPrimary}"/>
     <SolidColorBrush x:Key="HyperlinkForegroundDisabled" Color="{StaticResource TextAccentFillColorDisabled}"/>
+        
+        
+    <!-- #Label -->
+    <SolidColorBrush x:Key="LabelForeground" Color="{StaticResource TextFillColorPrimary}"/>
+    <SolidColorBrush x:Key="AccentLabelForeground" Color="{StaticResource TextAccentFillColorPrimary}"/>
+    <SolidColorBrush x:Key="HeaderLabelForeground" Color="{StaticResource TextFillColorTertiary}"/>
 
 
     <!-- #TextBox -->
