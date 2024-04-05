@@ -17,6 +17,7 @@
         <ResourceDictionary Source="Controls/Label.xaml"/>
         <ResourceDictionary Source="Controls/TextBlock.xaml"/>
         <ResourceDictionary Source="Controls/TextBox.xaml"/>
+        <ResourceDictionary Source="Controls/ToolTip.xaml"/>
         <ResourceDictionary Source="Controls/Window.xaml"/>
     </ResourceDictionary.MergedDictionaries>
     

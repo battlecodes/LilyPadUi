@@ -31,7 +31,7 @@
                 <ComboBoxItem>Green</ComboBoxItem>
                 <ComboBoxItem>Blue</ComboBoxItem>
             </ComboBox>
-            <Button Content="I'm a testy little button!" Margin="0,10"/>
+            <Button Content="I'm a testy little button!" Margin="0,10"  ToolTip="Gimme that filet o' fish."/>
             <Button Content="Can you understand my accent?" Style="{StaticResource AccentButtonStyle}" Margin="0,10"/>
             <Button Content="Full Alert!" Style="{StaticResource DeleteButtonStyle}" Margin="0,10"/>
             <Button Content="Empty Alert!" Style="{StaticResource EmptyDeleteButtonStyle}" Margin="0,10"/>

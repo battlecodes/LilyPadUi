@@ -37,6 +37,8 @@
 
     <Color x:Key="TextOnAccentFillColorPrimary">#000000</Color>
 
+    <Color x:Key="AcrylicBackgroundFillColorDefault">#2C2C2C</Color>
+    
     <Color x:Key="SurfaceStrokeColorFlyout">#33000000</Color>
     
     
@@ -146,6 +148,12 @@
     <SolidColorBrush x:Key="TextBoxForegroundDisabled" Color="{StaticResource TextFillColorDisabled}"/>
     <SolidColorBrush x:Key="TextBoxSelectionBrush" Color="{StaticResource SolidControlFillColorSecondary}"/>
     <SolidColorBrush x:Key="TextBoxSelectionTextBrush" Color="{StaticResource TextAccentFillColorPrimary}"/>
+    
+    <!-- #ToolTip -->
+    <SolidColorBrush x:Key="ToolTipBackground" Color="{StaticResource AcrylicBackgroundFillColorDefault}"/>
+    <SolidColorBrush x:Key="ToolTipForeground" Color="{StaticResource TextFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ToolTipBorderBrush" Color="{StaticResource SurfaceStrokeColorFlyout}"/>
+
 
     <!-- #Window -->
     <SolidColorBrush x:Key="WindowBackground" Color="{StaticResource ApplicationBackgroundColor}"/>
