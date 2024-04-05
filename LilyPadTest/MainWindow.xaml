@@ -11,9 +11,20 @@
         <ResourceDictionary Source="/LilyPadUi;component/LilyPadUi.xaml"/>
     </Window.Resources>
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
         <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20">
-            <Button Content="I'm a testy little button!"/>
+            <Button Content="I'm a testy little button!" Margin="0,10"/>
+            <Button Content="Can you understand my accent?" Style="{StaticResource AccentButtonStyle}" Margin="0,10"/>
+            <Button Content="Full Alert!" Style="{StaticResource DeleteButtonStyle}" Margin="0,10"/>
+            <Button Content="Empty Alert!" Style="{StaticResource EmptyDeleteButtonStyle}" Margin="0,10"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="20">
+            <Button Content="Halp"/>
         </StackPanel>
         
     </Grid>
