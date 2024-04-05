@@ -36,6 +36,14 @@
 
     <Color x:Key="SurfaceStrokeColorFlyout">#33000000</Color>
     
+    
+    <!-- #Brushes -->
+    
+    
+    <!-- #Elevation border brushes -->
+
+    <SolidColorBrush x:Key="TextControlElevationBorderBrush" Color="Transparent"/>
+
     <!-- #Controls -->
     
     <!-- #Button -->
@@ -106,10 +114,16 @@
     <SolidColorBrush x:Key="ComboBoxDropDownBorderBrush" Color="{StaticResource DropDownFillColorPrimary}"/>
     <SolidColorBrush x:Key="ComboBoxEditableTextBoxForeground" Color="{StaticResource TextFillColorPrimary}"/>
     <SolidColorBrush x:Key="ComboBoxItemBackgroundSelected" Color="{StaticResource DropDownFillColorSecondary}"/>
+    
+    
+    <!-- #DatePicker -->
+    <SolidColorBrush x:Key="DatePickerBackground" Color="{StaticResource SolidControlFillColorPrimary}"/>
+    <SolidColorBrush x:Key="DatePickerForeground" Color="{StaticResource TextFillColorPrimary}"/>
 
 
     <!-- #TextBox -->
     <SolidColorBrush x:Key="TextBoxBackground" Color="{StaticResource TextControlFillColorDefault}"/>
+    <SolidColorBrush x:Key="TextBoxForeground" Color="{StaticResource TextFillColorPrimary}"/>
     <SolidColorBrush x:Key="TextBoxSelectionBrush" Color="{StaticResource SolidControlFillColorSecondary}"/>
     <SolidColorBrush x:Key="TextBoxSelectionTextBrush" Color="{StaticResource TextAccentFillColorPrimary}"/>
 

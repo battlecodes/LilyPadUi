@@ -2,6 +2,8 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
 
+    <BitmapImage x:Key="CalendarDefaultImage" UriSource="/LilyPadUi;component/Resources/Images/Icons/Calendar/calendar_default.png"/>
+
     <BitmapImage x:Key="ChevronDownDefaultImage" UriSource="/LilyPadUi;component/Resources/Images/Icons/Chevron-Down/Chevron-down_default.png"/>
     <BitmapImage x:Key="ChevronDownSecondaryImage" UriSource="/LilyPadUi;component/Resources/Images/Icons/Chevron-Down/chevron-down_secondary.png"/>
     <BitmapImage x:Key="ChevronDownDisabledImage" UriSource="/LilyPadUi;component/Resources/Images/Icons/Chevron-Down/chevron-down_disabled.png"/>
