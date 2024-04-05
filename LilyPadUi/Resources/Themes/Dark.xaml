@@ -131,6 +131,10 @@
     <SolidColorBrush x:Key="LabelForeground" Color="{StaticResource TextFillColorPrimary}"/>
     <SolidColorBrush x:Key="AccentLabelForeground" Color="{StaticResource TextAccentFillColorPrimary}"/>
     <SolidColorBrush x:Key="HeaderLabelForeground" Color="{StaticResource TextFillColorTertiary}"/>
+    
+    
+    <!-- #TextBlock -->
+    <SolidColorBrush x:Key="TextBlockForeground" Color="{StaticResource TextFillColorTertiary}"/>
 
 
     <!-- #TextBox -->
