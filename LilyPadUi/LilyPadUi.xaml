@@ -11,6 +11,7 @@
 
         <ResourceDictionary Source="Controls/Button.xaml"/>
         <ResourceDictionary Source="Controls/Calendar.xaml"/>
+        <ResourceDictionary Source="Controls/ComboBox.xaml"/>
         <ResourceDictionary Source="Controls/Window.xaml"/>
     </ResourceDictionary.MergedDictionaries>
     

@@ -21,6 +21,11 @@
     <Color x:Key="SolidControlAlertFillColorTertiary">#8F2022</Color>
     <Color x:Key="SolidControlAlertFillColorDisabled">#DA373E</Color>
 
+    <Color x:Key="DropDownFillColorPrimary">#2B2D31</Color>
+    <Color x:Key="DropDownFillColorSecondary">#404249</Color>
+
+    <Color x:Key="TextControlFillColorDefault">#383A40</Color>
+
     <Color x:Key="TextFillColorPrimary">#828790</Color>
     <Color x:Key="TextFillColorSecondary">#C1C3C7</Color>
 
@@ -83,7 +88,30 @@
     <SolidColorBrush x:Key="CalendarViewButtonForeground" Color="{StaticResource TextFillColorSecondary}"/>
 
 
+    <!-- #ComboBox -->
+    <SolidColorBrush x:Key="ComboBoxBackground" Color="{StaticResource SolidControlFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxForeground" Color="{StaticResource TextFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxBorderBrush" Color="{StaticResource SolidControlFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxToggleButtonBackground" Color="{StaticResource SolidControlFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxToggleButtonBackgroundEditable" Color="{StaticResource SolidControlFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxToggleButtonBackgroundMouseOver" Color="{StaticResource SolidControlFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxToggleButtonBackgroundPressed" Color="{StaticResource SolidControlFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxToggleButtonBackgroundDisabled" Color="{StaticResource SolidControlFillColorDisabled}"/>
+    <SolidColorBrush x:Key="ComboBoxToggleButtonBorderBrush" Color="{StaticResource SolidControlFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxToggleButtonBorderBrushEditable" Color="{StaticResource SolidControlFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxToggleButtonBorderBrushMouseOver" Color="{StaticResource SolidControlFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxToggleButtonBorderBrushPressed" Color="{StaticResource SolidControlFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxToggleButtonBorderBrushDisabled" Color="{StaticResource SolidControlFillColorDisabled}"/>
+    <SolidColorBrush x:Key="ComboBoxDropDownBackground" Color="{StaticResource DropDownFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxDropDownBorderBrush" Color="{StaticResource DropDownFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxEditableTextBoxForeground" Color="{StaticResource TextFillColorPrimary}"/>
+    <SolidColorBrush x:Key="ComboBoxItemBackgroundSelected" Color="{StaticResource DropDownFillColorSecondary}"/>
 
+
+    <!-- #TextBox -->
+    <SolidColorBrush x:Key="TextBoxBackground" Color="{StaticResource TextControlFillColorDefault}"/>
+    <SolidColorBrush x:Key="TextBoxSelectionBrush" Color="{StaticResource SolidControlFillColorSecondary}"/>
+    <SolidColorBrush x:Key="TextBoxSelectionTextBrush" Color="{StaticResource TextAccentFillColorPrimary}"/>
 
     <!-- #Window -->
     <SolidColorBrush x:Key="WindowBackground" Color="{StaticResource ApplicationBackgroundColor}"/>

@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <None Remove="Resources\Fonts\Inter-VariableFont_slnt,wght.ttf" />
+    <None Remove="Resources\Images\Icons\Calendar\calendar_default.png" />
     <None Remove="Resources\Images\Icons\Chevron-Down\chevron-down_default.png" />
     <None Remove="Resources\Images\Icons\Chevron-Down\chevron-down_disabled.png" />
     <None Remove="Resources\Images\Icons\Chevron-Down\chevron-down_secondary.png" />
@@ -22,6 +23,7 @@
 
   <ItemGroup>
     <Resource Include="Resources\Fonts\Inter-VariableFont_slnt,wght.ttf" />
+    <Resource Include="Resources\Images\Icons\Calendar\calendar_default.png" />
     <Resource Include="Resources\Images\Icons\Chevron-Down\chevron-down_default.png" />
     <Resource Include="Resources\Images\Icons\Chevron-Down\chevron-down_disabled.png" />
     <Resource Include="Resources\Images\Icons\Chevron-Down\chevron-down_secondary.png" />
