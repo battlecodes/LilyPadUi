@@ -24,11 +24,13 @@
     <Color x:Key="DropDownFillColorPrimary">#2B2D31</Color>
     <Color x:Key="DropDownFillColorSecondary">#404249</Color>
 
-    <Color x:Key="TextControlFillColorDefault">#383A40</Color>
+    <Color x:Key="TextControlFillColorPrimary">#383A40</Color>
+    <Color x:Key="TextControlFillColorSecondary">#BCBEC2</Color>
 
     <Color x:Key="TextFillColorPrimary">#828790</Color>
     <Color x:Key="TextFillColorSecondary">#C1C3C7</Color>
     <Color x:Key="TextFillColorTertiary">#B5BAC1</Color>
+    <Color x:Key="TextFillColorDisabled">#66686C</Color>
 
     <Color x:Key="TextAccentFillColorPrimary">#FFFFFF</Color>
     <Color x:Key="TextAccentFillColorDisabled">#A3A4A7</Color>
@@ -138,8 +140,10 @@
 
 
     <!-- #TextBox -->
-    <SolidColorBrush x:Key="TextBoxBackground" Color="{StaticResource TextControlFillColorDefault}"/>
-    <SolidColorBrush x:Key="TextBoxForeground" Color="{StaticResource TextFillColorPrimary}"/>
+    <SolidColorBrush x:Key="TextBoxBackground" Color="{StaticResource TextControlFillColorPrimary}"/>
+    <SolidColorBrush x:Key="TextBoxBackgroundDisabled" Color="{StaticResource SolidControlFillColorDisabled}"/>
+    <SolidColorBrush x:Key="TextBoxForeground" Color="{StaticResource TextControlFillColorSecondary}"/>
+    <SolidColorBrush x:Key="TextBoxForegroundDisabled" Color="{StaticResource TextFillColorDisabled}"/>
     <SolidColorBrush x:Key="TextBoxSelectionBrush" Color="{StaticResource SolidControlFillColorSecondary}"/>
     <SolidColorBrush x:Key="TextBoxSelectionTextBrush" Color="{StaticResource TextAccentFillColorPrimary}"/>
 
