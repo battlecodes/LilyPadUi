@@ -119,6 +119,11 @@
     <!-- #DatePicker -->
     <SolidColorBrush x:Key="DatePickerBackground" Color="{StaticResource SolidControlFillColorPrimary}"/>
     <SolidColorBrush x:Key="DatePickerForeground" Color="{StaticResource TextFillColorPrimary}"/>
+        
+        
+    <!-- #Hyperlink -->
+    <SolidColorBrush x:Key="HyperlinkForeground" Color="{StaticResource TextAccentFillColorPrimary}"/>
+    <SolidColorBrush x:Key="HyperlinkForegroundDisabled" Color="{StaticResource TextAccentFillColorDisabled}"/>
 
 
     <!-- #TextBox -->
