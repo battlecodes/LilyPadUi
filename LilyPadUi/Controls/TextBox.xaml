@@ -67,7 +67,7 @@
                             <ScrollViewer
                                 x:Name="PART_ContentHost"
                                 Style="{StaticResource DefaultTextBoxScrollViewerStyle}"
-                                VerticalAlignment="Center"
+                                VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
                                 TextElement.Foreground="{TemplateBinding Foreground}"
                                 CanContentScroll="{TemplateBinding ScrollViewer.CanContentScroll}"
                                 HorizontalScrollBarVisibility="{TemplateBinding ScrollViewer.HorizontalScrollBarVisibility}"

@@ -7,8 +7,8 @@
         <Setter Property="Foreground" Value="{DynamicResource WindowForeground}"/>
         <Setter Property="Height" Value="600"/>
         <Setter Property="Width" Value="1100"/>
-        <Setter Property="MinHeight" Value="320"/>
-        <Setter Property="MinWidth" Value="460"/>
+        <Setter Property="MinHeight" Value="500"/>
+        <Setter Property="MinWidth" Value="900"/>
         <Setter Property="Margin" Value="0"/>
         <Setter Property="Padding" Value="0"/>
         <Setter Property="BorderBrush" Value="Transparent"/>
@@ -23,6 +23,14 @@
         <Setter Property="RenderOptions.EdgeMode" Value="Unspecified"/>
         <Setter Property="SnapsToDevicePixels" Value="True"/>
         <Setter Property="UseLayoutRounding" Value="True"/>
+    </Style>
+
+
+    <Style x:Key="DefaultDialogWindowStyle" TargetType="Window" BasedOn="{StaticResource DefaultWindowStyle}">
+        <Setter Property="WindowStyle" Value="None"/>
+        <Setter Property="AllowsTransparency" Value="True"/>
+        <Setter Property="Background" Value="Blue"/>
+        <Setter Property="SizeToContent" Value="WidthAndHeight"/>
     </Style>
 
 

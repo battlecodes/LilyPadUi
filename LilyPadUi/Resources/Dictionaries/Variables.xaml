@@ -8,8 +8,12 @@
 
 
     <sys:Double x:Key="ControlContentThemeFontSize">14</sys:Double>
+
     <sys:Double x:Key="TextControlThemeMinHeight">24</sys:Double>
     <sys:Double x:Key="TextControlThemeMinWidth">0</sys:Double>
+
+    <sys:Int32 x:Key="ImmediateToolTipInitialShowDelay">0</sys:Int32>
+    <sys:Int32 x:Key="ImmediateToolTipBetweenShowDelay">0</sys:Int32>
 
 
     <Thickness x:Key="TextControlThemePadding">10,8,10,7</Thickness>
